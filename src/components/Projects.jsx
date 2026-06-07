@@ -1,7 +1,7 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
 import movieBooking from "../assets/movie-booking.png";
-import touristManagement from "../assets/tourist-management.png";
+import movieSearch from "../assets/movie-search.png";
 import ecommerce from "../assets/ecommerce.png";
 
 const projects = [
@@ -16,13 +16,13 @@ const projects = [
   },
 
   {
-    title: "Tourist Management System",
-    image: touristManagement,
+    title: "Movie Search App",
+    image: movieSearch,
     description:
-      "A comprehensive system for managing tourist information and bookings.",
-    github: "https://github.com/Srinivasan-0731/Tourist_Mnagemant_System_Forntend",
+      "A simple movie search application with detailed information and trailers.",
+    github: "https://github.com/Srinivasan-0731/Movie-Search-App-React",
     techStack: ["MongoDB", "Express.js", "React.js", "Node.js", "tailwindcss"],
-    demo: "https://golden-fairy-7c23fe.netlify.app/",
+    demo: "https://elaborate-sorbet-5b4e55.netlify.app/",
   },
 
   {

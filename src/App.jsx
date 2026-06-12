@@ -3,18 +3,24 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="bg-[#07021d] text-white overflow-x-hidden">
+    <div className="min-h-screen bg-black text-white">
       <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Certifications />
+        <Contact />
+      </main>
+
       <Footer />
     </div>
   );

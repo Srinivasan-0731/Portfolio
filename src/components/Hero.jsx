@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaCode } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import profilePic from "../assets/profile.jpg";
-import Srinivasan from "../assets/Srinivasan_CV.pdf";
+import Srinivasan from "../assets/Srinivasan_RESUME.pdf";
 
 export default function Hero() {
     const scrollToProjects = () => {
